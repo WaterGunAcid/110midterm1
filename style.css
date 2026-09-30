@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu {
+    width: 100px;
+    margin: 10px;
+    border: 0px;
+}
+
+.home {
+    min-height: 100px;
+    color:cadetblue;
+}
+
+.home2 {
+    min-height: 100px;
+    color:cadetblue;
+}
+
+.about {
+    min-height: 100px;
+}
+
+.about2 {
+    min-height: 100px;
+    color:cadetblue;
+}
+
+.gallery {
+    min-height: 100px;
+}
+
+.gallery2 {
+    min-height: 100px;
+    color:cadetblue;
+}
+
+.blog {
+    min-height: 100px;
+}
+
+.blog2 {
+    min-height: 100px;
+    color:cadetblue;
+}
+
+.contact {
+    min-height: 100px;
+}
+
+.contact2 {
+    min-height: 100px;
+    color:cadetblue
+}
