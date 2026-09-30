@@ -91,6 +91,73 @@ HEADER FOR ALL PAGES
     color: cadetblue;
 }
 
+/*==============
+FOOTER FOR ALL PAGES
+==============*/
+
+footer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:rgb(44, 44, 44);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright {
+    color: white;
+    font-size: 15px;
+    width: fit-content;
+    padding-left: 300px;
+}
+
+.mediabar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    padding-right: 300px;
+    justify-content: space-between;
+}
+
+.icon {
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.twitter {
+    background-image: url(Images/icon-twitter.jpg);
+}
+
+.twitter:hover {
+    background-image: url(Images/icon-twitter-hover.jpg);
+}
+
+.facebook {
+    background-image: url(Images/icon-facebook.jpg);
+}
+
+.facebook:hover {
+    background-image: url(Images/icon-facebook-hover.jpg);
+}
+
+.googleplus {
+    background-image: url(Images/icon-googleplus.jpg);
+}
+
+.googleplus:hover {
+    background-image: url(Images/icon-googleplus-hover.jpg);
+}
+
+.pintrest {
+    background-image: url(Images/icon-pinterest.jpg);
+}
+
+.pintrest:hover {
+    background-image: url(Images/icon-pinterest-hover.jpg);
+}
+
+
 
 /*===============
 MIDDLE PART FOR HOME PAGE (James helped me with this thanks James)
@@ -155,7 +222,7 @@ MIDDLE PART FOR HOME PAGE (James helped me with this thanks James)
 }
 
 .midBoxLink:hover {
-    background-color: cadetblue;
+    background-color: rgb(121, 199, 201);
 }
 
 .indexPlaceholder {
@@ -166,3 +233,16 @@ MIDDLE PART FOR HOME PAGE (James helped me with this thanks James)
 MORE IMAGES FOR INDEX
 ================*/
 
+.moreImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.moreImages {
+    margin: 20px;
+    padding: 20px;
+}
