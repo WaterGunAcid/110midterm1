@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/*================
+HEADER FOR ALL PAGES
+================*/
+
 .logo {
     display: flex;
     flex-wrap: wrap;
@@ -85,4 +89,75 @@
 
 .header a:hover{
     color: cadetblue;
+}
+
+
+/*===============
+MIDDLE PART FOR HOME PAGE
+===============*/
+
+.indexMid {
+    background-image: url(Images/the-beacon.jpg);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+
+.indexMidBoxes {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.midBox1 {
+    background-color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.midBox2 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.midBox3 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.midBox4 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 20px 30px;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.midBoxLink {
+    font-size: 24px;
+    background-color: cadetblue;
+    color: white;
+    padding: 30px 40px;
+    margin: 20px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.midBoxLink:hover {
+    background-color: cadetblue;
+}
+
+.indexPlaceholder {
+    width: 50%;
 }
