@@ -11,6 +11,7 @@
     align-items: center;
     align-content: center;
     padding-bottom: 30px;
+    padding-top: 50px;
 }
 
 .header {
@@ -29,7 +30,7 @@
 
 .home {
     min-height: 100px;
-    color:cadetblue;
+    text-decoration: none;
 }
 
 .home2 {
@@ -39,6 +40,7 @@
 
 .about {
     min-height: 100px;
+    text-decoration: none;
 }
 
 .about2 {
@@ -48,6 +50,7 @@
 
 .gallery {
     min-height: 100px;
+    text-decoration: none;
 }
 
 .gallery2 {
@@ -57,6 +60,7 @@
 
 .blog {
     min-height: 100px;
+    text-decoration: none;
 }
 
 .blog2 {
@@ -66,9 +70,19 @@
 
 .contact {
     min-height: 100px;
+    text-decoration: none;
 }
 
 .contact2 {
     min-height: 100px;
     color:cadetblue
+}
+
+.header a{
+    text-decoration: none;
+    color:black;
+}
+
+.header a:hover{
+    color: cadetblue;
 }
