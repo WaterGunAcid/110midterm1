@@ -246,3 +246,65 @@ MORE IMAGES FOR INDEX
     margin: 20px;
     padding: 20px;
 }
+
+/*===============
+ABOUT PAGE
+===============*/
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    justify-self: center;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+
+.BOOFLEXBOXES {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.aboutPhoto {
+    width: fit-content;
+}
+
+.aboutParagraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraphs {
+    width: fit-content;
+    margin: 10px;
+    align-items: center;
+}
+
+.hParagraphs {
+    width: fit-content;
+    margin: 10px;
+    min-height: fit-content;
+}
+
+.paragraphs1 {
+    min-height: 150px;
+}
+
+.paragraphs2 {
+    min-height: 150px;
+}
+
+.paragraphs3 {
+    min-height: 150px;
+}
+
+.paragraphs4 {
+    min-height: 150px;
+}
